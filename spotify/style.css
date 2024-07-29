@@ -1,0 +1,299 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+   color: #fff;
+}
+.main{
+    display:flex;
+    height:100vh;
+    
+}
+.sidebar{
+width:340px;
+background-color:black;
+border-radius: 1rem;
+margin-right: 0.5rem;
+}
+.maincontent{
+    flex:1;
+    overflow: auto;
+    border-radius: 1rem;
+    background-color: #121212;
+   
+}
+.musicplayer{
+bottom:0px;
+position: fixed;
+width:100%;
+display:flex;
+height:72px;
+justify-content: space-between;
+background-color: black;
+
+}
+a{
+    text-decoration: none;
+    left:2px;
+    padding:10px;
+    opacity:0.7;
+    color: #fff;
+    background-color: #121212;
+}
+.navoption{
+    justify-content: space-evenly;
+    line-height: 3rem;
+    background-color: #121212;
+    opacity: 0.7;
+}
+.navoption:hover{
+    opacity: 1;
+}
+.navoption i{
+opacity:0.7;
+font-size: 1.25rem;
+}
+.navoption i:hover{
+    opacity:1;
+}
+.nav{
+    
+    border-radius: 1rem;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+     height:100px;
+    background-color: #121212; 
+    padding:0.5rem 0.75rem;
+}
+
+.liboptions img{
+    height:1.25rem;
+    width:1.25rem;  
+    background-color: #121212;
+   
+}
+.lib{
+    background-color: #121212;
+    border-radius: 1rem;
+    height:100%;
+    
+    margin-top:0.75rem;
+    padding:0.5rem 0.75rem;
+
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    background-color: #121212;
+}
+.icons{
+    font-size: 1.25rem;
+    opacity:0.7;
+    margin-right: 1rem;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #121212;
+    align-items: center;
+}
+.icons i{
+    margin-right: 0.8rem; 
+    justify-content: space-evenly;
+    opacity:0.7;
+}
+.icons i:hover{
+     
+    opacity:1;
+}
+.box1 h3,h5{
+    color:aliceblue;
+    background-color: #363434;
+    padding-left: 5px;
+    padding-top: 5px;
+   
+    
+}
+.box1{
+    background-color: #363434;
+    border-radius: 1rem;
+    margin:0.8rem 0 0.5rem 0;
+    padding:0.5rem 1.25rem;
+    height:10rem;
+}
+.btn{
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 100px;
+   padding:0.25rem 1rem;
+height:2rem;
+    font-weight: 700;
+     border:none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box2 h3,h5{
+    color:aliceblue;
+    background-color: #363434;
+    padding-left: 5px;
+    padding-top: 5px;
+   
+    
+}
+.box2{
+    background-color: #363434;
+    border-radius: 1rem;
+    margin:2rem 0 0.5rem 0;
+    padding:0.5rem 1.25rem;
+    height:12rem;
+}
+.btnn{
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 100px;
+   padding:0.15rem 1rem;
+height:2rem;
+    font-weight: 700;
+     border:none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lib{
+    background-color: #121212;
+}
+
+.stickynav {
+    background-color: #121212;
+    position: sticky;
+    display:flex;
+    justify-content: space-between;
+    top:0;
+}
+.stickynav img{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #121212;
+}
+.btnnn{
+    margin-top: 10px;
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 100px;
+   padding:0.25rem 1rem;
+height:2rem;
+right: 10px;
+    font-weight: 700;
+     border:none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btnnnn{
+    margin-top: 10px;
+    background-color:black;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 100px;
+   padding:0.25rem 1rem;
+height:2rem;
+    font-weight: 700;
+     border:none;
+    
+}
+.stnavicons{
+    background-color: #121212;
+}
+.stnavicons2{
+    background-color: #121212;
+}
+.cards{
+    background-color: #232323;
+    width:150px;
+    border-radius: 0.5rem;
+    padding:1rem;
+    margin-left: 2rem;
+}
+
+.maincontent{
+    padding:0 1.5rem 0 1.5rem;
+}
+.cardtitle{
+text-align: center;
+margin-top: 5px;
+font-weight: 700;
+}
+.cardinfo{
+text-align: center;
+color:grey;
+width:150px;
+font-size: 0.85rem;
+padding-top: 0.25rem;
+}
+.cardimg{
+    width:100%;
+    border-radius: 0.5rem;
+   
+}
+.cardcontainer{
+    display: flex;
+flex-wrap: wrap;    
+}
+.songimg{
+    height: 60px;
+    width:60px;
+    padding:0.5rem 0.5rem 0.5rem 0.5rem;
+    margin-left: 12px;
+    border-radius: 1px;
+}
+.songtitle{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+   
+}
+.singer{
+    opacity: 0.8;
+    font-size: 12px;
+}
+.current{
+    display: flex;
+    width:25%;
+    
+}
+.idk{
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+}
+.player{
+   width:50%;  
+
+}
+.playeritems{
+    display: flex;
+    width: 20px;
+    height: 20px;
+   justify-content:center;
+   padding: 1rem 1rem 1rem 1rem;
+  align-items: center;
+  margin-right: 3rem;
+  margin-left: 10rem;
+
+    
+}
+.playerrr{
+    justify-content: space-evenly;
+    height:1rem;
+    margin-right: 2rem;
+    align-items: center;
+    opacity:0.7;
+}
+.playerrr:hover{
+   
+    opacity:1;
+}
+.progressbar{
+    margin-left:4.5rem ;
+   width:70%;
+   appearance: none;
+   background-color: transparent;
+}
+.progress{
+   
+   
+}
